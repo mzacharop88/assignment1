@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Γράφοι προς μέτρηση (πρόσθεσε το "coPapersDBLP" αφού κάνουμε την πρόβλεψη!)
-GRAPHS=("k49_norm_10NN" "com-Amazon")
+GRAPHS=("k49_norm_10NN" "com-Amazon" "coPapersDBLP")
 
 # Αριθμός threads για τα παράλληλα μοντέλα
 THREADS=(1 2 4 8 16 32)
